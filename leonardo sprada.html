@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>leonardo</title>
-</head>
-<body>
-    <a href="https://200.201.3.207/UserCheck/PortalMain?IID=C307BBD1-DC7A-86CF-F336-7783F09ED4BB&origUrl=aHR0cHM6Ly9maXZlbS5uZXQv">site para abaixa o fivem</a><br>
-    <img src="" alt="">
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>leonardo sprada</title>
+        <style>
+            header{
+                background-color:#080a81e0;
+                color: #32d15a;
+                text-align: center;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 1px;
+                border: 3px solid #edeee8;
+            }
+            main{
+                background-color:#f6faf6;
+                color: #026b10;
+                text-align: center;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 1px;
+                display: flex;
+                border: 3px solid #4f5846;
+            }
+            img{
+                width: 200px;
+                height: 300px;
+            }
+            .artigo-autor{
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>    
+        <!-- Vamos construir o conteúdo da página -->
+        <header>>
+        <h1 >leonardo sprada
+        <p> França 2 </p>
+        </header>
+        <main>
+           <div>
+            <h2>Post de entrada</h2>
+            <p class="artigo-autor">Por: leonardo sprada</p>
+            <ol>
+            <li>
+            <p>1. A Origem Criativa (A Favela da França)Diferente de outras facções clássicas que nascem focadas estritamente em crimes comuns do jogo, a França surgiu da veia criativa do streamer LOUD Coringa e de seu grupo de amigos (como Kroozz).O Conceito: O nome e a temática surgiram em torno do conceito da "Favela da França" ou "Tropa da França" dentro dos servidores.Identidade Visual: Seus membros adotaram as cores da bandeira francesa, roupas específicas no jogo e uma estética marcante que rapidamente se transformou em produtos e identidade visual acompanhada por milhares de fãs fora do ambiente virtual.</p>
+            </li>
+            <li>
+            <p>O. A Era de Ouro Competitiva (O Bicampeonato da BGC)O auge da história da França se deu através do circuito competitivo de PvP (Player vs Player) organizado pela comunidade.O maior torneio do cenário de GTA RP, a BGC (Baguncinha Champions), virou o palco principal do grupo.Com estratégias de tiro coordenadas e treinos focados em mecânicas de combate do GTA, a Tropa da França superou as facções rivais mais tradicionais do jogo.Eles se consagraram bicampeões da BGC, cimentando o nome da equipe na história como uma das linhas de frente mais temidas do cenário. </p>
+            </li>
+            </ol>
+            </div>
+           
+            <div>
+            <h3>França</h3><br>
+            <ul>
+            <li>
+            <a href="https://kick.com/kroozzns">assistir aonde</a><br>
+            </li>
+            <li>
+            <img src="images.jpeg">          
+         </li>
+            <button>🇫🇷 <span>  0 </span>​ </button>
+            </ul>
+            </div>
+        </main>
+    </body>
+    <script>
+        const botao = document.querySelector("button");
+        botao.addEventListener("click", botaoClicado);
+
+        function botaoClicado(){
+            console.log("Fui clicado!");
+            let texto = botao.querySelector("span");
+            texto.textContent++;
+        }
+    </script>
 </html>
